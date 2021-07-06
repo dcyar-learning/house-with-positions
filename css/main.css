@@ -1,0 +1,58 @@
+#my-house {
+  width: 600px;
+  margin: 50px auto;
+}
+
+#techo {
+  background-image: url('https://image.freepik.com/foto-gratis/fondo-techo-tejas-rojas_1373-196.jpg');
+  width: 100%;
+  height: 80px;
+  border-radius: 500px 500px 0 0;
+  z-index: 9999;
+}
+
+#casa {
+  background-image: url('/img/02.jpg');
+  background-size: 100px;
+  width: 100%;
+  height: 400px;
+  /* position: relative; */
+}
+
+#piso {
+  height: 50px;
+  position: relative;
+  top: 185px;
+}
+
+#piso > img {
+  width: 200px;
+}
+
+#piso .arbusto-2 {
+  float: right;
+}
+
+#casa #ventanas {
+  position: relative;
+  top: 30px;
+  padding: 0 80px;
+}
+
+#casa #ventanas img {
+  width: 150px;
+}
+
+#casa #ventanas img:nth-child(2) {
+  float: right;
+}
+
+#casa #puerta {
+  position: absolute;
+  top: 324px;
+  left: 46%;
+}
+
+#casa #puerta img {
+  width: 110px;
+}
